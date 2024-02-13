@@ -35,7 +35,7 @@ class Calculator extends ExtendedClass{
        float sq_result = calc.square(operand_1);
        System.out.println("Squaring of a number="+sq_result);
 
-       float square_result = calc.square(2);
+       float square_result = calc.square();
        System.out.println("Squared no.="+square_result);
        float cube_result= calc.cube(5);
        System.out.println("Cube no.="+cube_result);
